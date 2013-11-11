@@ -25,6 +25,10 @@ config: {
   password: '',
   port: 5432,
   pool: false
+
+  // OR
+  url: 'postgres://USER:PASSWORD@HOST:PORT/DB',
+  pool: false
 };
 ```
 
